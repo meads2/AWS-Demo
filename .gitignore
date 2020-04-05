@@ -1,2 +1,4 @@
 .DS_STORE
 .vscode
+.ipynb_checkpoints
+tutorials/.ipynb_checkpoints
