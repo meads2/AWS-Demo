@@ -12,8 +12,7 @@ An overview and how to on some of the most popular cloud computing services avai
 After installing Anaconda create a folder and clone this repository to grab the files you will need to follow along.
 
 ```bash
-cd ~ && cd desktop
-mkdir aws-tutorial
+cd ~ && cd desktop && mkdir aws-tutorial
 git clone https://github.com/meads2/AWS-Demo.git
 ls
 ```
@@ -27,7 +26,7 @@ python -m ipykernel install --name aws-tut
 conda activate aws-tutorial
 ```
 
-#### **4. Set AWS Vars
+#### **4. Set AWS Vars**
 To use AWS you are going to need to set your own credentials to your account. In this tutorial we are going to be using the US-East-1 Region and AZs as they have most services. Feel free to choose whichever you would like as these services are almost globally available.
 
 ```bash
